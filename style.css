@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=IBM+Plex+Sans:wght@400;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.left-container {
+  width: 50%;
+}
+.logo {
+  width: 100%;
+  text-align: center;
+}
+
+.logo-image {
+  width: 8.75em;
+  padding-top: 10px;
+  margin-left: 175px;
+}
+
+.image-container {
+  width: 100%;
+  text-align: right;
+}
+
+.lady-image > img {
+  height: 34.375em;
+  margin-top: 75px;
+}
+
+.right-container {
+  width: 50%;
+}
+
+.right-content-container {
+  width: 50%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-content-container h3 {
+  /* font-weight: bolder; */
+  color: rgb(166, 15, 55);
+  /* font-family: Roboto; */
+  font-size: 1.25em;
+  text-align: center;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  letter-spacing: .10em;
+}
+
+.heading {
+  padding-top: 5px;
+}
+
+.box {
+  margin-top: 10px;
+  padding: 10px 20px 10px 20px;
+  color: rgb(166, 15, 55);
+  box-shadow: 8px 8px 15px 2px rgb(215, 215, 215),
+    -2px -1px 20px 2px rgb(215, 215, 215);
+  width: 80%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-align: center;
+  width: 80%;
+}
+
+.box input {
+  width: 100%;
+  margin: 5px 0;
+  font-size: 8px;
+  padding: 7px;
+  background-color: #a60f37;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+.box > h4 {
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+
+}
+
+.box > button {
+  margin-top: 10px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: rgb(166, 15, 55);
+  font-size: 1em;
+  border: none;
+  border-top: 1px solid rgb(215, 215, 215);
+  background-color: #ffffff;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.box > button:active {
+  color: rgb(78, 13, 29);
+}
+
+.list {
+  margin-top: 20px;
+  margin-left: -50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(63, 60, 60);
+  font-size: 1em;
+}
+
+hr {
+  border: 1px dashed black;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.hr2 {
+  border: 1px dashed black;
+  width: 80%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.list-2 h4 {
+  margin: 6px 0px;
+  font-weight: 800;
+  color: rgb(166, 15, 55);
+  font-family:"Roboto", sans-serif;
+  text-align: center;
+}
+
+.list-3 h4 {
+  font-weight: 800;
+  color: rgb(166, 15, 55);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.list-4 {
+  display: flex;
+  margin-top: 10px;
+  font-weight: bolder;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.list-4 > span {
+  width: 1.5px;
+  height: 20px;
+  background-color: rgb(200, 200, 200);
+  margin: 0px 8px;
+}
+
+.right-banner {
+  position: absolute;
+  left: 25%;
+  bottom: 15%;
+  width: 50%;
+  text-align: center;
+  color: rgb(166, 15, 55);
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7em;
+  
+}
+
+.right-banner-content {
+  background-color: rgb(166, 15, 55);
+  border-radius: 20px;
+  padding: 5px;
+  text-align: center;
+  color: rgb(229, 216, 216);
+  width: 70%;
+  font-size: 0.8em;
+  position: relative;
+  left: 12%;
+  margin-top: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.left-banner {
+  position: absolute;
+  background-color: rgb(166, 15, 55);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 4px 15px;
+  text-align: center;
+  color: white;
+  left: 10%;
+  bottom: 10%;
+  font-family:"Roboto", sans-serif;
+  font-weight: 800;
+  box-shadow: 0px 5px rgb(202, 193, 193);
+  
+}
+
+.left-banner>h5{
+  letter-spacing: 0.05em;
+}
+
+#right-hide{
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  cursor: pointer;
+  font-size: 2em;
+  color: rgb(170, 169, 169);
+}
+
+#left-hide{
+  position: fixed;
+  left: 10px;
+  bottom: 20px;
+  cursor: pointer;
+  font-size: 2em;
+  color: rgb(170, 169, 169);
+}
+
+#hide{
+  font-size: 1.5em;
+  color: black;
+  position: relative;
+  right: 0px;
+  cursor: pointer;
+  color: rgb(170, 169, 169);
+}

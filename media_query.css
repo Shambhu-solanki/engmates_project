@@ -1,0 +1,189 @@
+
+
+@media screen and (max-width: 480px) and (min-width: 150px) {
+  .image-container {
+    display: none;
+  }
+
+  .right-container {
+    width: 100%;
+  }
+
+  .right-content-container {
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  .left-banner {
+    display: block;
+    position: static;
+    margin-top: 10px;
+    width: 95%;
+    font-size: 1em;
+  }
+  .right-banner {
+    display: block;
+    width: 100%;
+    position:static;
+    left: 0px;
+    bottom: 10px;
+    margin-top: 10px;
+   
+  }
+
+  .right-banner-content{
+    width: 100%;
+    position: static;
+  }
+
+  .list{
+    margin-left: 0px;
+}
+
+  .logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo-image {
+    margin-left: 0px;
+  }
+
+  .left-container {
+    width: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  .right-content-container {
+    width: 100%;
+    margin-top: 100px;
+  }
+  .logo {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+  .logo-image {
+    margin-left: 0px;
+  }
+
+  .lady-image > img {
+    height: 28.75em;
+    margin-top: 150px;
+  }
+
+  .right-banner {
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    bottom: 150px;
+    margin: auto;
+    font-size: 0.8em;
+  }
+
+  .right-banner-content {
+    width: 100%;
+    position: relative;
+    left: 0px;
+  }
+
+  .left-banner{
+    position: absolute;
+    left: 0px;
+    bottom: 80px;
+  }
+  
+
+  .list{
+    margin-left: 20px;
+  }
+
+}
+
+
+@media screen and (max-width:1024px) and (min-width:769px){
+    .right-content-container {
+        width: 80%;
+        margin-top: 100px;
+      }
+      .logo {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+      }
+      .logo-image {
+        margin-left: 0px;
+      }
+    
+      .lady-image > img {
+        height: 28.75em;
+        margin-top: 150px;
+      }
+    
+      .right-banner {
+        width: 50%;
+        position: absolute;
+        left: 0px;
+        bottom: 250px;
+        font-size: 0.8em;
+      }
+    
+      .right-banner-content {
+        width: 100%;
+        position: absolute;
+        left: 0px;
+    
+      }
+    
+      .left-banner{
+        position: absolute;
+        left: 0px;
+        bottom: 80px;
+      }
+      
+      .list{
+        margin-left: 0px;
+       }
+       .box{
+        width: 100%;
+    }
+  }
+    
+@media screen and (max-width:1246px) and (min-width:1025px){
+   .left-banner{
+    position: absolute;
+    left:0px ;
+    bottom: 70px;
+   }
+
+   .right-banner{
+    position: absolute;
+    left: 0px;
+    bottom: 150px;
+   }
+
+   .list{
+    margin-left: 0px;
+   }
+   .box{
+    width: 100%;
+   }
+}
+
+@media screen and (max-width:1300px) and (min-width:1247px){
+  .list{
+    margin-left: 0px;
+   }
+   .box{
+    width: 100%;
+   }
+   .right-banner{
+    position: absolute;
+    bottom: 100px;
+   }
+}
+
+
+
